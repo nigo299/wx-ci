@@ -137,7 +137,7 @@ class WxCi {
     try {
       const filePath = this.options.file || 'wxci.config.js';
       if (!checkConfigFile(filePath)) {
-        warn("配置文件不存在，请执行 'wx-ci init'生成配置文件");
+        warn("配置文件不存在，请执行 'wx-auto-ci init'生成配置文件");
         process.exit(1);
       }
       const config = require(path.resolve(`${process.cwd()}`, filePath));

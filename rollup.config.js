@@ -10,7 +10,7 @@ const key = Object.keys(require('./package.json').dependencies);
 export default {
   input: 'src/index.ts',
   output: {
-    file: 'bin/wx-ci.js',
+    file: 'bin/wx-auto-ci.js',
     format: 'cjs',
   },
   plugins: [

@@ -1,11 +1,11 @@
 {
   "name": "wxauto-ci",
-  "version": "1.0.7",
-  "main": "bin/wx-ci.js",
+  "version": "1.0.8",
+  "main": "bin/wx-auto-ci.js",
   "bin": {
-    "wx-ci": "bin/wx-ci.js"
+    "wx-auto-ci": "bin/wx-auto-ci.js"
   },
-  "repository": "git@github.com:nigo9729/wx-ci.git",
+  "repository": "git@github.com:nigo9729/wx-auto-ci.git",
   "author": "nigo <chenzhuo9729@gmail.com>",
   "scripts": {
     "clean": "rm -rf ./bin/ ./lib/ ",
@@ -13,7 +13,7 @@
     "build": "yarn clean && rollup -c"
   },
   "keywords": [
-    "wx-ci",
+    "wx-auto-ci",
     "wechat",
     "miniprogram",
     "ci",
@@ -21,7 +21,7 @@
     "remax",
     "taro"
   ],
-  "description": "微信小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-ci 进行小程序代码的打包、上传等操作。",
+  "description": "微信小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-auto-ci 进行小程序代码的打包、上传等操作。",
   "homepage": "https://github.com/nigo9729",
   "license": "MIT",
   "dependencies": {

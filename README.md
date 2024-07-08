@@ -1,45 +1,45 @@
 
 
-小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-ci 进行小程序代码的打包、上传等操作。
+小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-auto-ci 进行小程序代码的打包、上传等操作。
 
 ## 安装
 
 ### 方式一：全局安装（**推荐**）
 
-使用前你需要安装 `wx-ci`脚手架工具:
+使用前你需要安装 `wx-auto-ci`脚手架工具:
 
 ```console
-npm install wx-ci -g
+npm install wx-auto-ci -g
 ```
 
 或者
 
 ```console
-yarn global add wx-ci
+yarn global add wx-auto-ci
 ```
 
 查看版本，表示安装成功
 
 ```console
-wx-ci -v
+wx-auto-ci -v
 ```
 
 ### 方式二：本地安装
 
 ```console
-npm install wx-ci --save-dev
+npm install wx-auto-ci --save-dev
 ```
 
 或者
 
 ```console
-yarn  add wx-ci -D
+yarn  add wx-auto-ci -D
 ```
 
 查看版本，表示安装成功
 
 ```console
-npx wx-ci -v
+npx wx-auto-ci -v
 ```
 
 ## 快速开始
@@ -47,7 +47,7 @@ npx wx-ci -v
 ### 快速生成配置文件
 
 ```console
-wx-ci init
+wx-auto-ci init
 ```
 
 执行完成后，会在当前目录生成 wxci.config.js 配置文件，**各参数含义均有备注，也可参考本文档**
@@ -59,13 +59,13 @@ wx-ci init
 #### 上传体验版本
 
 ```console
-wx-ci upload
+wx-auto-ci upload
 ```
 
 #### 上传预览版本
 
 ```console
-wx-ci preview
+wx-auto-ci preview
 ```
 
 执行这段脚本，如果最后提示上传成功，恭喜，小程序已经成功上传啦！
@@ -74,7 +74,7 @@ wx-ci preview
 可以增加参数选项`-q` 开启静默模式
 
 ```console
-wx-ci upload -q
+wx-auto-ci upload -q
 ```
 
 此时将不再提示手动输入版本号及上传描述，而是读取配置文件的上传描述
@@ -83,14 +83,14 @@ wx-ci upload -q
 可以增加参数选项`-f` 指定文件
 
 ```console
-wx-ci upload -f <filename>
+wx-auto-ci upload -f <filename>
 ```
 
-此时将使用指定的文件作为 wx-ci 配置文件
+此时将使用指定的文件作为 wx-auto-ci 配置文件
 
 ## 可用配置
 
-你可以根据项目需要手动修改`wx-ci`.
+你可以根据项目需要手动修改`wx-auto-ci`.
 可配置选项如下
 |字段名|类型|必填|默认值|描述|
 |:--:|:--:|:-----:|:--------:|:----------:|
