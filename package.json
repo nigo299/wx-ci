@@ -1,12 +1,12 @@
 {
-  "name": "wx-ci",
-  "version": "1.0.6",
+  "name": "wxauto-ci",
+  "version": "1.0.7",
   "main": "bin/wx-ci.js",
   "bin": {
     "wx-ci": "bin/wx-ci.js"
   },
-  "repository": "git@github.com:jaluik/wx-ci.git",
-  "author": "jaluik <cqzhengmouren@gmail.com>",
+  "repository": "git@github.com:nigo9729/wx-ci.git",
+  "author": "nigo <chenzhuo9729@gmail.com>",
   "scripts": {
     "clean": "rm -rf ./bin/ ./lib/ ",
     "dev": "yarn clean && rollup -c -w",
@@ -22,13 +22,13 @@
     "taro"
   ],
   "description": "微信小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-ci 进行小程序代码的打包、上传等操作。",
-  "homepage": "https://github.com/jaluik",
+  "homepage": "https://github.com/nigo9729",
   "license": "MIT",
   "dependencies": {
     "commander": "^8.3.0",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
-    "miniprogram-ci": "^1.8.0",
+    "miniprogram-ci": "^2.0.5",
     "ora": "^5.1.0",
     "schema-utils": "^3.0.0",
     "shelljs": "^0.8.4"

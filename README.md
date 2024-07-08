@@ -1,9 +1,4 @@
-# wx-ci <img src="https://img.shields.io/badge/wx--ci-%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC-green">
 
-[![author](https://img.shields.io/badge/author-jaluik-f66.svg)](https://github.com/jaluik/wx-ci)
-[![node](https://img.shields.io/badge/node-%3E%3D%206.9.0-3c9.svg)](https://github.com//jaluik/wx-ci)
-[![npm](https://img.shields.io/badge/npm-%3E%3D%204.5.0-3c9.svg)](https://github.com/jaluik/wx-ci)
-[![license](https://img.shields.io/badge/license-MIT-09f.svg)](https://github.com/JowayYoung/jaluik/wx-ci)
 
 小程序一键上传脚本，开发者可不打开小程序开发者工具，独立使用 wx-ci 进行小程序代码的打包、上传等操作。
 
@@ -193,14 +188,8 @@ module.exports = {
   //二维码文件保存路径
   qrcodeOutputDest: 'destination.jpg',
   //见场景值列表
-  scene: '',
+  scene: '',m
   //预览页面路径启动参数
   searchQuery: '',
 };
 ```
-
-### 版权
-
-MIT © [jaluik](https://github.com/jaluik)
-
-如果你觉得这个脚本对你有用，给个 Star 😄
