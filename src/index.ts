@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import WxCi from './wxCi';
+import WxCi from './wxAutoCi';
 
 const wxCi = new WxCi();
 

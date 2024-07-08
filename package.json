@@ -1,5 +1,5 @@
 {
-  "name": "wxauto-ci",
+  "name": "wx-auto-ci",
   "version": "1.0.8",
   "main": "bin/wx-auto-ci.js",
   "bin": {
